@@ -1,0 +1,920 @@
+[
+  {
+    "source": "^user navigate to complete deck from account dashboard page$",
+    "steps": [
+      {
+        "name": "user navigate to complete deck from account dashboard page",
+        "aggregatedDurations": {
+          "average": 17.0942555,
+          "median": 17.0942555
+        },
+        "durations": [
+          {
+            "duration": 17.0942555,
+            "location": "src/test/java/Features/Sign_in_existing_paid_user.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to sign up page (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user navigates to sign up page 2CO",
+        "aggregatedDurations": {
+          "average": 14.8893196,
+          "median": 14.8893196
+        },
+        "durations": [
+          {
+            "duration": 14.8893196,
+            "location": "src/test/java/Features/CO_checkout.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on login button efu$",
+    "steps": [
+      {
+        "name": "user click on login button efu",
+        "aggregatedDurations": {
+          "average": 2.1487303,
+          "median": 2.1487303
+        },
+        "durations": [
+          {
+            "duration": 2.1487303,
+            "location": "src/test/java/Features/Sign_in_existing_free_user.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on sign up page cd$",
+    "steps": [
+      {
+        "name": "user is already on sign up page cd",
+        "aggregatedDurations": {
+          "average": 20.5174168,
+          "median": 20.5174168
+        },
+        "durations": [
+          {
+            "duration": 20.5174168,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter new email to sign up$",
+    "steps": [
+      {
+        "name": "enter new email to sign up",
+        "aggregatedDurations": {
+          "average": 6.2114373,
+          "median": 6.2114373
+        },
+        "durations": [
+          {
+            "duration": 6.2114373,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on sign up page$",
+    "steps": [
+      {
+        "name": "user is already on sign up page",
+        "aggregatedDurations": {
+          "average": 16.3138326,
+          "median": 16.3138326
+        },
+        "durations": [
+          {
+            "duration": 16.3138326,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user deleted the account pp$",
+    "steps": [
+      {
+        "name": "user deleted the account pp",
+        "aggregatedDurations": {
+          "average": 15.4301919,
+          "median": 15.4301919
+        },
+        "durations": [
+          {
+            "duration": 15.4301919,
+            "location": "src/test/java/Features/paypal_checkout.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user deleted the account (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user deleted the account 2CO",
+        "aggregatedDurations": {
+          "average": 23.6972525,
+          "median": 23.6972525
+        },
+        "durations": [
+          {
+            "duration": 23.6972525,
+            "location": "src/test/java/Features/CO_checkout.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on login button epu$",
+    "steps": [
+      {
+        "name": "user click on login button epu",
+        "aggregatedDurations": {
+          "average": 3.4941186,
+          "median": 3.4941186
+        },
+        "durations": [
+          {
+            "duration": 3.4941186,
+            "location": "src/test/java/Features/Sign_in_existing_paid_user.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user go to free ppts page efu$",
+    "steps": [
+      {
+        "name": "user go to free ppts page efu",
+        "aggregatedDurations": {
+          "average": 4.0275418,
+          "median": 4.0275418
+        },
+        "durations": [
+          {
+            "duration": 4.0275418,
+            "location": "src/test/java/Features/Sign_in_existing_free_user.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user go to free ppts page$",
+    "steps": [
+      {
+        "name": "user go to free ppts page",
+        "aggregatedDurations": {
+          "average": 4.635092,
+          "median": 4.635092
+        },
+        "durations": [
+          {
+            "duration": 4.635092,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user lands on pricing page and then user go to free ppts page cd$",
+    "steps": [
+      {
+        "name": "user lands on pricing page and then user go to free ppts page cd",
+        "aggregatedDurations": {
+          "average": 5.6382501,
+          "median": 5.6382501
+        },
+        "durations": [
+          {
+            "duration": 5.6382501,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^paypal popup appears and user navigates back to my account (\\d+)CO$",
+    "steps": [
+      {
+        "name": "paypal popup appears and user navigates back to my account 2CO",
+        "aggregatedDurations": {
+          "average": 10.6277211,
+          "median": 10.6277211
+        },
+        "durations": [
+          {
+            "duration": 10.6277211,
+            "location": "src/test/java/Features/CO_checkout.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on pricing page$",
+    "steps": [
+      {
+        "name": "user is on pricing page",
+        "aggregatedDurations": {
+          "average": 3.0007351,
+          "median": 3.0007351
+        },
+        "durations": [
+          {
+            "duration": 3.0007351,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on sign up button to sign up cd$",
+    "steps": [
+      {
+        "name": "user click on sign up button to sign up cd",
+        "aggregatedDurations": {
+          "average": 7.9992983,
+          "median": 7.9992983
+        },
+        "durations": [
+          {
+            "duration": 7.9992983,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter email and password efu$",
+    "steps": [
+      {
+        "name": "user enter email and password efu",
+        "aggregatedDurations": {
+          "average": 0.2670008,
+          "median": 0.2670008
+        },
+        "durations": [
+          {
+            "duration": 0.2670008,
+            "location": "src/test/java/Features/Sign_in_existing_free_user.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on Website Home Page pp$",
+    "steps": [
+      {
+        "name": "user is already on Website Home Page pp",
+        "aggregatedDurations": {
+          "average": 14.7133533,
+          "median": 14.7133533
+        },
+        "durations": [
+          {
+            "duration": 14.7133533,
+            "location": "src/test/java/Features/paypal_checkout.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^check checkbox to sign up cd$",
+    "steps": [
+      {
+        "name": "check checkbox to sign up cd",
+        "aggregatedDurations": {
+          "average": 1.999509,
+          "median": 1.999509
+        },
+        "durations": [
+          {
+            "duration": 1.999509,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on sign in page efu$",
+    "steps": [
+      {
+        "name": "user is already on sign in page efu",
+        "aggregatedDurations": {
+          "average": 5.7759047,
+          "median": 5.7759047
+        },
+        "durations": [
+          {
+            "duration": 5.7759047,
+            "location": "src/test/java/Features/Sign_in_existing_free_user.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^paypal popup appears and user navigates back to my account pp$",
+    "steps": [
+      {
+        "name": "paypal popup appears and user navigates back to my account pp",
+        "aggregatedDurations": {
+          "average": 14.4891852,
+          "median": 14.4891852
+        },
+        "durations": [
+          {
+            "duration": 14.4891852,
+            "location": "src/test/java/Features/paypal_checkout.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^check checkbox to sign up$",
+    "steps": [
+      {
+        "name": "check checkbox to sign up",
+        "aggregatedDurations": {
+          "average": 2.0097308,
+          "median": 2.0097308
+        },
+        "durations": [
+          {
+            "duration": 2.0097308,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on sign in page epu$",
+    "steps": [
+      {
+        "name": "user is already on sign in page epu",
+        "aggregatedDurations": {
+          "average": 14.9671352,
+          "median": 14.9671352
+        },
+        "durations": [
+          {
+            "duration": 14.9671352,
+            "location": "src/test/java/Features/Sign_in_existing_paid_user.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user delete the new account created$",
+    "steps": [
+      {
+        "name": "user delete the new account created",
+        "aggregatedDurations": {
+          "average": 21.2324886,
+          "median": 21.2324886
+        },
+        "durations": [
+          {
+            "duration": 21.2324886,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user download a free ppt$",
+    "steps": [
+      {
+        "name": "user download a free ppt",
+        "aggregatedDurations": {
+          "average": 10.2584236,
+          "median": 10.2584236
+        },
+        "durations": [
+          {
+            "duration": 10.2584236,
+            "location": "src/test/java/Features/Sign_in_existing_free_user.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to sign up page pp$",
+    "steps": [
+      {
+        "name": "user navigates to sign up page pp",
+        "aggregatedDurations": {
+          "average": 6.7219698,
+          "median": 6.7219698
+        },
+        "durations": [
+          {
+            "duration": 6.7219698,
+            "location": "src/test/java/Features/paypal_checkout.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter new email to sign up cd$",
+    "steps": [
+      {
+        "name": "enter new email to sign up cd",
+        "aggregatedDurations": {
+          "average": 6.2052677,
+          "median": 6.2052677
+        },
+        "durations": [
+          {
+            "duration": 6.2052677,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on sign up button to sign up$",
+    "steps": [
+      {
+        "name": "user click on sign up button to sign up",
+        "aggregatedDurations": {
+          "average": 5.6174304,
+          "median": 5.6174304
+        },
+        "durations": [
+          {
+            "duration": 5.6174304,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user download a free product cd$",
+    "steps": [
+      {
+        "name": "user download a free product cd",
+        "aggregatedDurations": {
+          "average": 12.8783135,
+          "median": 12.8783135
+        },
+        "durations": [
+          {
+            "duration": 12.8783135,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter firstname and lastname to sign up$",
+    "steps": [
+      {
+        "name": "User enter firstname and lastname to sign up",
+        "aggregatedDurations": {
+          "average": 8.2277311,
+          "median": 8.2277311
+        },
+        "durations": [
+          {
+            "duration": 8.2277311,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is redirected to checkout page (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user is redirected to checkout page 2CO",
+        "aggregatedDurations": {
+          "average": 1.9999463,
+          "median": 1.9999463
+        },
+        "durations": [
+          {
+            "duration": 1.9999463,
+            "location": "src/test/java/Features/CO_checkout.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter email and password epu$",
+    "steps": [
+      {
+        "name": "user enter email and password epu",
+        "aggregatedDurations": {
+          "average": 0.2640288,
+          "median": 0.2640288
+        },
+        "durations": [
+          {
+            "duration": 0.2640288,
+            "location": "src/test/java/Features/Sign_in_existing_paid_user.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user proceed to pay with paypal pp$",
+    "steps": [
+      {
+        "name": "user proceed to pay with paypal pp",
+        "aggregatedDurations": {
+          "average": 7.2193129,
+          "median": 7.2193129
+        },
+        "durations": [
+          {
+            "duration": 7.2193129,
+            "location": "src/test/java/Features/paypal_checkout.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is redirected to pricing page and choose a plan to pay pp$",
+    "steps": [
+      {
+        "name": "user is redirected to pricing page and choose a plan to pay pp",
+        "aggregatedDurations": {
+          "average": 9.5487688,
+          "median": 9.5487688
+        },
+        "durations": [
+          {
+            "duration": 9.5487688,
+            "location": "src/test/java/Features/paypal_checkout.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is redirected to pricing page and choose a plan to pay (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user is redirected to pricing page and choose a plan to pay 2CO",
+        "aggregatedDurations": {
+          "average": 9.7746542,
+          "median": 9.7746542
+        },
+        "durations": [
+          {
+            "duration": 9.7746542,
+            "location": "src/test/java/Features/CO_checkout.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user download any product$",
+    "steps": [
+      {
+        "name": "user download any product",
+        "aggregatedDurations": {
+          "average": 4.0842021,
+          "median": 4.0842021
+        },
+        "durations": [
+          {
+            "duration": 4.0842021,
+            "location": "src/test/java/Features/Sign_in_existing_paid_user.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter captcha to sign up cd$",
+    "steps": [
+      {
+        "name": "user enter captcha to sign up cd",
+        "aggregatedDurations": {
+          "average": 2.0762678,
+          "median": 2.0762678
+        },
+        "durations": [
+          {
+            "duration": 2.0762678,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user proceed to pay with (\\d+)CO (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user proceed to pay with 2CO 2CO",
+        "aggregatedDurations": {
+          "average": 12.2040293,
+          "median": 12.2040293
+        },
+        "durations": [
+          {
+            "duration": 12.2040293,
+            "location": "src/test/java/Features/CO_checkout.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter firstname and lastname to sign up cd$",
+    "steps": [
+      {
+        "name": "User enter firstname and lastname to sign up cd",
+        "aggregatedDurations": {
+          "average": 8.1749934,
+          "median": 8.1749934
+        },
+        "durations": [
+          {
+            "duration": 8.1749934,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on Website Home Page (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user is already on Website Home Page 2CO",
+        "aggregatedDurations": {
+          "average": 4.629404,
+          "median": 4.629404
+        },
+        "durations": [
+          {
+            "duration": 4.629404,
+            "location": "src/test/java/Features/CO_checkout.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^form is error message is displayed and form is not submitted$",
+    "steps": [
+      {
+        "name": "form is error message is displayed and form is not submitted",
+        "aggregatedDurations": {
+          "average": 22.3127845,
+          "median": 22.3127845
+        },
+        "durations": [
+          {
+            "duration": 22.3127845,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Logout from Website efu$",
+    "steps": [
+      {
+        "name": "User Logout from Website efu",
+        "aggregatedDurations": {
+          "average": 12.9732278,
+          "median": 12.9732278
+        },
+        "durations": [
+          {
+            "duration": 12.9732278,
+            "location": "src/test/java/Features/Sign_in_existing_free_user.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Logout from Website epu$",
+    "steps": [
+      {
+        "name": "User Logout from Website epu",
+        "aggregatedDurations": {
+          "average": 14.5058524,
+          "median": 14.5058524
+        },
+        "durations": [
+          {
+            "duration": 14.5058524,
+            "location": "src/test/java/Features/Sign_in_existing_paid_user.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user create a new ac count (\\d+)CO$",
+    "steps": [
+      {
+        "name": "user create a new ac count 2CO",
+        "aggregatedDurations": {
+          "average": 35.0528851,
+          "median": 35.0528851
+        },
+        "durations": [
+          {
+            "duration": 35.0528851,
+            "location": "src/test/java/Features/CO_checkout.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter captcha to sign up$",
+    "steps": [
+      {
+        "name": "user enter captcha to sign up",
+        "aggregatedDurations": {
+          "average": 4.082273,
+          "median": 4.082273
+        },
+        "durations": [
+          {
+            "duration": 4.082273,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user create a new ac count pp$",
+    "steps": [
+      {
+        "name": "user create a new ac count pp",
+        "aggregatedDurations": {
+          "average": 34.4429649,
+          "median": 34.4429649
+        },
+        "durations": [
+          {
+            "duration": 34.4429649,
+            "location": "src/test/java/Features/paypal_checkout.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter password and confirm password to sign up cd$",
+    "steps": [
+      {
+        "name": "user enter password and confirm password to sign up cd",
+        "aggregatedDurations": {
+          "average": 8.2467506,
+          "median": 8.2467506
+        },
+        "durations": [
+          {
+            "duration": 8.2467506,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is redirected to checkout page pp$",
+    "steps": [
+      {
+        "name": "user is redirected to checkout page pp",
+        "aggregatedDurations": {
+          "average": 1.9999406,
+          "median": 1.9999406
+        },
+        "durations": [
+          {
+            "duration": 1.9999406,
+            "location": "src/test/java/Features/paypal_checkout.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter password and confirm password to sign up$",
+    "steps": [
+      {
+        "name": "user enter password and confirm password to sign up",
+        "aggregatedDurations": {
+          "average": 8.2492657,
+          "median": 8.2492657
+        },
+        "durations": [
+          {
+            "duration": 8.2492657,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user download a free product$",
+    "steps": [
+      {
+        "name": "user download a free product",
+        "aggregatedDurations": {
+          "average": 11.7263141,
+          "median": 11.7263141
+        },
+        "durations": [
+          {
+            "duration": 11.7263141,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter incorrect data in the sign sig up form$",
+    "steps": [
+      {
+        "name": "user enter incorrect data in the sign sig up form",
+        "aggregatedDurations": {
+          "average": 28.7425036,
+          "median": 28.7425036
+        },
+        "durations": [
+          {
+            "duration": 28.7425036,
+            "location": "src/test/java/Features/Sign_up_incorrect_data.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user delete the new account created cd$",
+    "steps": [
+      {
+        "name": "user delete the new account created cd",
+        "aggregatedDurations": {
+          "average": 13.3968948,
+          "median": 13.3968948
+        },
+        "durations": [
+          {
+            "duration": 13.3968948,
+            "location": "src/test/java/Features/sign_up_correct_data.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]

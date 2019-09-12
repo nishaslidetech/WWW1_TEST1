@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="7.504" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\slide53\eclipse-workspace\www1.Script1.ST"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\slide53\eclipse-workspace\www1.Script1.ST"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_211\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\slide53\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5359484739031154048.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\slide53\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\slide53"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="slide53"/>
+    <property name="java.class.path" value="C:\Users\slide53\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_211"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_211\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\slide53\eclipse-workspace\www1.Script1.ST\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="SetupClass.TestRun" classname="SetupClass.TestRun" time="7.454">
+    <error message="session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;SLIDE54&apos;, ip: &apos;192.168.100.141&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A1EB13+1501971]&#10;	Ordinal0 [0x0099F6D1+980689]&#10;	Ordinal0 [0x0092765F+489055]&#10;	Ordinal0 [0x008BF2F4+62196]&#10;	Ordinal0 [0x008BBCDA+48346]&#10;	Ordinal0 [0x008D9800+169984]&#10;	Ordinal0 [0x008D942D+169005]&#10;	Ordinal0 [0x008D78EB+162027]&#10;	Ordinal0 [0x008C0AC7+68295]&#10;	Ordinal0 [0x008C1B40+72512]&#10;	Ordinal0 [0x008C1AD9+72409]&#10;	Ordinal0 [0x009B8F37+1085239]&#10;	GetHandleVerifier [0x00ABD7ED+503293]&#10;	GetHandleVerifier [0x00ABD580+502672]&#10;	GetHandleVerifier [0x00AC46AC+531644]&#10;	GetHandleVerifier [0x00ABDFFA+505354]&#10;	Ordinal0 [0x009B0606+1050118]&#10;	Ordinal0 [0x009B047F+1049727]&#10;	Ordinal0 [0x009BAF9B+1093531]&#10;	Ordinal0 [0x009BB103+1093891]&#10;	Ordinal0 [0x009BA095+1089685]&#10;	BaseThreadInitThunk [0x775D6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77717B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77717B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SLIDE54', ip: '192.168.100.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A1EB13+1501971]
+	Ordinal0 [0x0099F6D1+980689]
+	Ordinal0 [0x0092765F+489055]
+	Ordinal0 [0x008BF2F4+62196]
+	Ordinal0 [0x008BBCDA+48346]
+	Ordinal0 [0x008D9800+169984]
+	Ordinal0 [0x008D942D+169005]
+	Ordinal0 [0x008D78EB+162027]
+	Ordinal0 [0x008C0AC7+68295]
+	Ordinal0 [0x008C1B40+72512]
+	Ordinal0 [0x008C1AD9+72409]
+	Ordinal0 [0x009B8F37+1085239]
+	GetHandleVerifier [0x00ABD7ED+503293]
+	GetHandleVerifier [0x00ABD580+502672]
+	GetHandleVerifier [0x00AC46AC+531644]
+	GetHandleVerifier [0x00ABDFFA+505354]
+	Ordinal0 [0x009B0606+1050118]
+	Ordinal0 [0x009B047F+1049727]
+	Ordinal0 [0x009BAF9B+1093531]
+	Ordinal0 [0x009BB103+1093891]
+	Ordinal0 [0x009BA095+1089685]
+	BaseThreadInitThunk [0x775D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77717B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77717B44+180]
+
+	at SetupClass.TestRun.beforeClass(TestRun.java:20)
+</error>
+    <system-out><![CDATA[Bname=====https://www1.slideteam.net
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\slide53\.m2\repository\webdriver\chromedriver\win32\77.0.3865.40\chromedriver.exe
+Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 10371
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+</testsuite>
