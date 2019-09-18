@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="536.795902">
-<testcase classname="2CO Checkout" name="Test 2CO checkout" time="112.875212">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="842.250218">
+<testcase classname="2CO Checkout" name="Test 2CO checkout" time="176.894304">
 <system-out><![CDATA[Given user is already on Website Home Page 2CO..............................passed
 Then user navigates to sign up page 2CO.....................................passed
 Then user create a new ac count 2CO.........................................passed
@@ -11,7 +11,7 @@ Then paypal popup appears and user navigates back to my account 2CO.........pass
 Then user deleted the account 2CO...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in with existing free user" name="Test Sign in existing free user" time="35.450829">
+<testcase classname="Sign in with existing free user" name="Test Sign in existing free user" time="42.155118">
 <system-out><![CDATA[Given user is already on sign in page efu...................................passed
 Then user enter email and password efu......................................passed
 Then user click on login button efu.........................................passed
@@ -20,7 +20,7 @@ Then user download a free ppt...............................................pass
 Then User Logout from Website efu...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in with existing paid user" name="Test Sign in existing paid user" time="54.409593">
+<testcase classname="Sign in with existing paid user" name="Test Sign in existing paid user" time="81.727117">
 <system-out><![CDATA[Given user is already on sign in page epu...................................passed
 Then user enter email and password epu......................................passed
 Then user click on login button epu.........................................passed
@@ -29,7 +29,7 @@ Then user download any product..............................................pass
 Then User Logout from Website epu...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign up with incorrect data" name="Test Sign up with Incorrect Data" time="142.361619">
+<testcase classname="Sign up with incorrect data" name="Test Sign up with Incorrect Data" time="237.963049">
 <system-out><![CDATA[Given user is already on sign up page.......................................passed
 Then user enter incorrect data in the sign sig up form......................passed
 Then form is error message is displayed and form is not submitted...........passed
@@ -45,7 +45,7 @@ Then user download a free product...........................................pass
 Then user delete the new account created....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Paypal Checkout" name="Test paypal checkout" time="104.565687">
+<testcase classname="Paypal Checkout" name="Test paypal checkout" time="151.470992">
 <system-out><![CDATA[Given user is already on Website Home Page pp...............................passed
 Then user navigates to sign up page pp......................................passed
 Then user create a new ac count pp..........................................passed
@@ -56,7 +56,7 @@ Then paypal popup appears and user navigates back to my account pp..........pass
 Then user deleted the account pp............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign up with correct data" name="Test Sign up with correct Data" time="87.132962">
+<testcase classname="Sign up with correct data" name="Test Sign up with correct Data" time="152.039638">
 <system-out><![CDATA[Given user is already on sign up page cd....................................passed
 Then enter new email to sign up cd..........................................passed
 Then User enter firstname and lastname to sign up cd........................passed
