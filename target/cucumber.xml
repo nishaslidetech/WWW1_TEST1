@@ -1,72 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="842.250218">
-<testcase classname="2CO Checkout" name="Test 2CO checkout" time="176.894304">
-<system-out><![CDATA[Given user is already on Website Home Page 2CO..............................passed
-Then user navigates to sign up page 2CO.....................................passed
-Then user create a new ac count 2CO.........................................passed
-Then user is redirected to pricing page and choose a plan to pay 2CO........passed
-Then user is redirected to checkout page 2CO................................passed
-Then user proceed to pay with 2CO 2CO.......................................passed
-Then paypal popup appears and user navigates back to my account 2CO.........passed
-Then user deleted the account 2CO...........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="673.051855">
+<testcase classname="Email Login" name="Test Email Login" time="200.171386">
+<system-out><![CDATA[Given Open the Website URL i................................................passed
+Then click on Sign In i.....................................................passed
+Then enter email and password i.............................................passed
+Then click on login button i................................................passed
+Then donwload a product from complete deck i................................passed
+Then Logout from Website i..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in with existing free user" name="Test Sign in existing free user" time="42.155118">
-<system-out><![CDATA[Given user is already on sign in page efu...................................passed
-Then user enter email and password efu......................................passed
-Then user click on login button efu.........................................passed
-Then user go to free ppts page efu..........................................passed
-Then user download a free ppt...............................................passed
-Then User Logout from Website efu...........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Sign in with existing paid user" name="Test Sign in existing paid user" time="81.727117">
-<system-out><![CDATA[Given user is already on sign in page epu...................................passed
-Then user enter email and password epu......................................passed
-Then user click on login button epu.........................................passed
-Then user navigate to complete deck from account dashboard page.............passed
-Then user download any product..............................................passed
-Then User Logout from Website epu...........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Sign up with incorrect data" name="Test Sign up with Incorrect Data" time="237.963049">
-<system-out><![CDATA[Given user is already on sign up page.......................................passed
-Then user enter incorrect data in the sign sig up form......................passed
-Then form is error message is displayed and form is not submitted...........passed
-Then enter new email to sign up.............................................passed
-Then User enter firstname and lastname to sign up...........................passed
-Then user enter password and confirm password to sign up....................passed
-Then user enter captcha to sign up..........................................passed
-Then check checkbox to sign up..............................................passed
-Then user click on sign up button to sign up................................passed
-Then user is on pricing page................................................passed
-Then user go to free ppts page..............................................passed
-Then user download a free product...........................................passed
-Then user delete the new account created....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Paypal Checkout" name="Test paypal checkout" time="151.470992">
-<system-out><![CDATA[Given user is already on Website Home Page pp...............................passed
-Then user navigates to sign up page pp......................................passed
-Then user create a new ac count pp..........................................passed
-Then user is redirected to pricing page and choose a plan to pay pp.........passed
-Then user is redirected to checkout page pp.................................passed
-Then user proceed to pay with paypal pp.....................................passed
-Then paypal popup appears and user navigates back to my account pp..........passed
-Then user deleted the account pp............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Sign up with correct data" name="Test Sign up with correct Data" time="152.039638">
-<system-out><![CDATA[Given user is already on sign up page cd....................................passed
-Then enter new email to sign up cd..........................................passed
-Then User enter firstname and lastname to sign up cd........................passed
-Then user enter password and confirm password to sign up cd.................passed
-Then user enter captcha to sign up cd.......................................passed
-Then check checkbox to sign up cd...........................................passed
-Then user click on sign up button to sign up cd.............................passed
-Then user lands on pricing page and then user go to free ppts page cd.......passed
-Then user download a free product cd........................................passed
-Then user delete the new account created cd.................................passed
+<testcase classname="Email Sign Up" name="Test Email Sign Up" time="472.880469">
+<system-out><![CDATA[Given Open the Website URL su...............................................passed
+Then enter new email su.....................................................passed
+Then enter firstname and lastname su........................................passed
+Then enter password and confirm password su.................................passed
+Then enter captcha su.......................................................passed
+Then click on sign up button su.............................................passed
+Then download a free product su.............................................passed
+Then delete the new account created su......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

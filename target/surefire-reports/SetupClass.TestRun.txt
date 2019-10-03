@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: SetupClass.TestRun
 -------------------------------------------------------------------------------
-Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 881.695 s - in SetupClass.TestRun
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 721.447 s - in SetupClass.TestRun
