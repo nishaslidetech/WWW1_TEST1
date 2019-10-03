@@ -166,7 +166,34 @@ public void donwload_a_product_from_complete_deck_i() throws Throwable {
 		// TODO: handle exception
 	}
 	   
-   
+	// Newly Added
+		WebElement new_add = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Newly Added')]")));
+		Thread.sleep(4000);
+	    new_add.click();
+		Thread.sleep(4000);
+		
+		WebElement ppt_new = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#maincontent > div.columns > div > div.container.listing-container > div.products.wrapper.grid.products-grid > ol > li:nth-child(2) > div > div > strong > span > a")));
+		Thread.sleep(4000);
+	    ppt_new.click();
+		Thread.sleep(4000);
+		
+
+		WebElement download_new = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Download this presentation')]")));
+		Thread.sleep(4000);
+	    download_new.click();
+		Thread.sleep(8500);
+		
+
+		   try
+		   {
+			   Thread.sleep(3000);
+			   driver.get("https://test:!test123!@www1.slideteam.net");
+			   Thread.sleep(3000);
+		   }
+		   catch (Exception e) {
+			// TODO: handle exception
+		}
+   Thread.sleep(6800);
 }
 
 @Then("^Logout from Website i\\.$")
