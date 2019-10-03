@@ -108,9 +108,9 @@ public class sign_up extends Set{
 		Thread.sleep(4000);
 		
 		WebElement ppt_one = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#maincontent > div.columns > div > div.container.listing-container > div.products.wrapper.grid.products-grid > ol > li:nth-child(3) > div > div > strong > span > a")));
-		Thread.sleep(4000);
+		Thread.sleep(6000);
 	    ppt_one.click();
-		Thread.sleep(4000);
+		Thread.sleep(4900);
 		
 		WebElement download_p = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Download this presentation')]")));
 		Thread.sleep(4000);
