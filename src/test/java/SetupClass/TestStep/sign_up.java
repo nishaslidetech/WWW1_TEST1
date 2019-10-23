@@ -89,7 +89,7 @@ public class sign_up extends Set{
 	public void enter_captcha_su() throws Throwable {
 		WebElement new_captcha_signup = wait.until(ExpectedConditions.elementToBeClickable(By.id("captcha_user_create")));
 		Thread.sleep(4000);
-	    new_captcha_signup.sendKeys("12345");
+	    new_captcha_signup.sendKeys("Aj7W2mtf9namwf55");
 	}
 
 	@Then("^click on sign up button su\\.$")
