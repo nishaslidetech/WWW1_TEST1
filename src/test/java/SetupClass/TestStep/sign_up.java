@@ -18,6 +18,7 @@ import cucumber.api.java.en.Then;
 public class sign_up extends Set{
 	
 	WebDriverWait wait = new WebDriverWait(driver,50);
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	@Given("^Open the Website URL su\\.$")
 	public void open_the_Website_URL_su() throws Throwable {
