@@ -195,6 +195,7 @@ public class sign_up extends Set{
 					}
 		   
 		   WebElement delete_account = driver.findElement(By.xpath("//a[contains(text(),'Delete Account')]"));
+		js.executeScript("arguments[0].scrollIntoView();",delete_account);
 		   Thread.sleep(3000);
 		   delete_account.click();
 		   Thread.sleep(3500);
@@ -225,7 +226,8 @@ public class sign_up extends Set{
 						
 					}
 		   WebElement continue_delete = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Continue')]")));
-		   Thread.sleep(3000);
+		   js.executeScript("arguments[0].scrollIntoView();",continue_delete);
+		Thread.sleep(3000);
 		   continue_delete.click();
 		   Thread.sleep(5000);
 	}
