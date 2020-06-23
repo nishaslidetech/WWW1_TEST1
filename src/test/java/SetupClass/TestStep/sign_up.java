@@ -28,7 +28,7 @@ public class sign_up extends Set{
 	    driver.manage().deleteAllCookies();
 	    Thread.sleep(3500);
 	    
-	    WebElement sign_up_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Sign up')]")));
+	    WebElement sign_up_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/header/div[1]/div[2]/div/div/ul/li[1]/a")));
 	    Thread.sleep(4000);
 	    sign_up_btn.click();
 	    Thread.sleep(7500);
