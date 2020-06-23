@@ -30,7 +30,7 @@ public void open_the_Website_URL_i() throws Throwable {
 @Then("^click on Sign In i\\.$")
 public void click_on_Sign_In_i() throws Throwable {
 	
-   WebElement sign_in_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Sign In')]")));
+   WebElement sign_in_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/header/div[1]/div[2]/div/div/ul/li[2]/a")));
    Thread.sleep(2000);
    sign_in_btn.click();
    Thread.sleep(3000);
