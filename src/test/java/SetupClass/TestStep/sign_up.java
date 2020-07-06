@@ -55,7 +55,7 @@ public class sign_up extends Set{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
 		
 		Thread.sleep(4000);
-	    WebElement new_email_signup = wait.until(ExpectedConditions.elementToBeClickable(By.id("email_address")));
+	    WebElement new_email_signup = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div/div/div[2]/div/form/fieldset/div[4]/div/input")));
 		Thread.sleep(4000);
 	    new_email_signup.sendKeys(full_email);
 		Thread.sleep(4000);
