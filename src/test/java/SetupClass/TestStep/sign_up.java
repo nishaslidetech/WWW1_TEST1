@@ -114,7 +114,7 @@ public class sign_up extends Set{
 	    ppt_one.click();
 		Thread.sleep(4900);
 		
-		WebElement download_p = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Download this presentation')]")));
+		WebElement download_p = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[3]/div[3]/form/div/button")));
 		js.executeScript("arguments[0].scrollIntoView();",download_p);
 		Thread.sleep(4000);
 	    download_p.click();
