@@ -178,7 +178,7 @@ public void donwload_a_product_from_complete_deck_i() throws Throwable {
 		Thread.sleep(4000);
 		
 
-		WebElement download_new = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Download this presentation')]")));
+		WebElement download_new = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[3]/div[3]/form/div/button")));
 		Thread.sleep(4000);
 	    download_new.click();
 		Thread.sleep(8500);
