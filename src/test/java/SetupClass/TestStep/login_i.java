@@ -151,7 +151,7 @@ public void donwload_a_product_from_complete_deck_i() throws Throwable {
 				}
 	   
 	   //download paid ppt
-	   WebElement download_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Download this presentation')]")));
+	   WebElement download_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[3]/div[3]/form/div/button")));
 	   Thread.sleep(2000);
 	   download_btn.click();
 	   Thread.sleep(5000);
