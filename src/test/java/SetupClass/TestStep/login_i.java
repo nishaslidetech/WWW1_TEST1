@@ -70,11 +70,11 @@ public void enter_email_and_password_i() throws Throwable {
 	
 	WebElement login_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 	   Thread.sleep(2000);
-	   login_email.sendKeys("himanshi.sharma@slidetech.in");
+	   login_email.sendKeys("sakshi.pathania@slidetech.in");
 	   
 	   WebElement login_pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
 	   Thread.sleep(2000);
-	   login_pass.sendKeys("123456");
+	   login_pass.sendKeys("Qwerty@1");
     
 }
 
