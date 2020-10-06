@@ -104,15 +104,19 @@ public class sign_up extends Set{
 
 	@Then("^download a free product su\\.$")
 	public void download_a_free_product_su() throws Throwable {
-		WebElement free_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Free PPTs')]")));
-		Thread.sleep(4000);
-	    free_ppt.click();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
+		Actions actions = new Actions(driver);
+		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Free Stuff")));
+		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Free PPTs')]"))).click().build().perform();
+		Thread.sleep(7000);
 		
-		WebElement ppt_one = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#maincontent > div.columns > div > div.container.listing-container > div.products.wrapper.grid.products-grid > ol > li:nth-child(3) > div > div > strong > span > a")));
+		/*WebElement ppt_one = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#maincontent > div.columns > div > div.container.listing-container > div.products.wrapper.grid.products-grid > ol > li:nth-child(3) > div > div > strong > span > a")));
 		Thread.sleep(6000);
-	    ppt_one.click();
-		Thread.sleep(4900);
+	    ppt_one.click();*/
+		driver.get("https://www.slideteam.net/circular-flow-of-process-4-stages-powerpoint-slides-templates.html");
+		Thread.sleep(3000);
+		
+		//Thread.sleep(4900);
 		
 		WebElement download_p = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[3]/div[3]/form/div/button")));
 		js.executeScript("arguments[0].scrollIntoView();",download_p);
