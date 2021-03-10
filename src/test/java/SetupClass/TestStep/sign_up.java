@@ -212,11 +212,16 @@ public class sign_up extends Set{
 					catch(NoSuchElementException NCP) {
 						
 					}
-		   WebElement continue_delete = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit'][contains(.,'Continue')]")));
-		   js.executeScript("arguments[0].scrollIntoView();",continue_delete);
-		Thread.sleep(3000);
-		   continue_delete.click();
-		   Thread.sleep(5000);
+		  WebElement delete_btn = driver.findElement(By.cssSelector("#exampleRadios1"));
+		 Thread.sleep(3000);
+		delete_btn.click();
+		 Thread.sleep(3000);
+		
+		 WebElement continue_delete = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#deleteaccount-form > div.modal-footer > button.btn.btn-default.delete_prfile.btn-submit")));
+		 Thread.sleep(3000);
+		continue_delete.click();
+		 Thread.sleep(3000);
+	}
 	}
 
 
