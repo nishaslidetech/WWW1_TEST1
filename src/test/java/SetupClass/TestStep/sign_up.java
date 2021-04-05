@@ -222,7 +222,7 @@ public class sign_up extends Set{
 		continue_delete.click();
 		 Thread.sleep(3000);
 	}
-	}
+	
 
 
 
