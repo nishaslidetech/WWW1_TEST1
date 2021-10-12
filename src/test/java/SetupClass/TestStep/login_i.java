@@ -171,7 +171,7 @@ public void donwload_a_product_from_complete_deck_i() throws Throwable {
 @Then("^Logout from Website i\\.$")
 public void logout_from_Website_i() throws Throwable {
 	
-	WebElement logout_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Sign Out')]")));
+	WebElement logout_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Sign Out')]"))); 
 	   Thread.sleep(2000);
 	  logout_btn.click();
 	   Thread.sleep(5000);
