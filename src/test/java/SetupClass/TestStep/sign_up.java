@@ -28,7 +28,7 @@ public class sign_up extends Set{
 	    driver.manage().deleteAllCookies();
 	    Thread.sleep(3500);
 	    
-	    WebElement sign_up_btn = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body > div.page-wrapper > header > div.header.content > div.panel.wrapper > div > div > ul > li:nth-child(1) > a")));
+	    WebElement sign_up_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("*//a[contains(@href,'https://www4.slideteam.net/customer/account/create/')]")));
 	    Thread.sleep(4000);
 	    sign_up_btn.click();
 	    Thread.sleep(7500);
