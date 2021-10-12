@@ -128,7 +128,7 @@ public class sign_up extends Set{
 		   try
 		   {
 			   Thread.sleep(3000);
-			   driver.get("https://test:!test123!@www1.slideteam.net");
+			   driver.get("https://test:!test123!@www4.slideteam.net");
 			   Thread.sleep(3000);
 		   }
 		   catch (Exception e) {
@@ -140,7 +140,7 @@ public class sign_up extends Set{
 		   try
 		   {
 			   Thread.sleep(3000);
-			   driver.get("https://test:!test123!@www1.slideteam.net");
+			   driver.get("https://test:!test123!@www4.slideteam.net");
 			   Thread.sleep(3000);
 		   }
 		   catch (Exception e) {
