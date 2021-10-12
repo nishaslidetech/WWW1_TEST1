@@ -151,7 +151,7 @@ public void donwload_a_product_from_complete_deck_i() throws Throwable {
 				}
 	   
 	   //download paid ppt
-	   WebElement download_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[3]/div[3]/form/div/button")));
+	   WebElement download_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='clicking']")));
 	   Thread.sleep(2000);
 	   download_btn.click();
 	   Thread.sleep(5000);
@@ -159,7 +159,7 @@ public void donwload_a_product_from_complete_deck_i() throws Throwable {
 	   try
 	   {
 		   Thread.sleep(3000);
-		   driver.get("https://test:!test123!@www1.slideteam.net");
+		   driver.get("https://test:!test123!@www4.slideteam.net");
 		   Thread.sleep(3000);
 	   }
 	   catch (Exception e) {
