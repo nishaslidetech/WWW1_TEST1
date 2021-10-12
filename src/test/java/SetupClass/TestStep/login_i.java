@@ -30,10 +30,10 @@ public void open_the_Website_URL_i() throws Throwable {
 @Then("^click on Sign In i\\.$")
 public void click_on_Sign_In_i() throws Throwable {
 	
-   WebElement sign_in_btn = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body > div.page-wrapper > header > div.header.content > div.panel.wrapper > div > div > ul > li.authorization-link > a")));
+   WebElement sign_in_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='Sign In']")));
    Thread.sleep(2000);
    sign_in_btn.click();
-   Thread.sleep(3000);
+   //Thread.sleep(3000);
    
    // close chat window
    try {
