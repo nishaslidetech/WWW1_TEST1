@@ -104,48 +104,28 @@ public class sign_up extends Set{
 
 	@Then("^download a free product su\\.$")
 	public void download_a_free_product_su() throws Throwable {
-		Thread.sleep(5000);
-		Actions actions = new Actions(driver);
-		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Free Stuff")));
-		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Free PPTs')]"))).click().build().perform();
-		Thread.sleep(7000);
+		try {
+			WebElement free_Stuff = wait.until(ExpectedConditions.elementToBeClickable(
+					By.xpath("//li[@class='menu-item has-sub-class']//a[@title = 'Free Stuff']")));
+			Actions action = new Actions(driver);
+			action.moveToElement(free_Stuff).perform();
+			WebElement free_ppt = wait
+					.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Free Samples']")));
+			action.moveToElement(free_ppt).click().perform();
+			Thread.sleep(4000);
+		} catch (NoSuchElementException e) {
+
+		}
 		
-		/*WebElement ppt_one = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#maincontent > div.columns > div > div.container.listing-container > div.products.wrapper.grid.products-grid > ol > li:nth-child(3) > div > div > strong > span > a")));
-		Thread.sleep(6000);
-	    ppt_one.click();*/
-		driver.get("https://www.slideteam.net/circular-flow-of-process-4-stages-powerpoint-slides-templates.html");
-		Thread.sleep(3000);
-		
-		//Thread.sleep(4900);
+		WebElement selectProduct = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@title='Circular flow of process 4 stages free powerpoint templates slides']")));
+		js.executeScript("arguments[0].scrollIntoView();",selectProduct);
+		selectProduct.click();
 		
 		WebElement download_p = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[3]/div[3]/form/div/button")));
 		js.executeScript("arguments[0].scrollIntoView();",download_p);
 		Thread.sleep(4000);
-	    download_p.click();
+	        download_p.click();
 		Thread.sleep(8000);
-		
-
-		   try
-		   {
-			   Thread.sleep(3000);
-			   driver.get("https://test:!test123!@www4.slideteam.net");
-			   Thread.sleep(3000);
-		   }
-		   catch (Exception e) {
-			// TODO: handle exception
-		}
-		
-		
-
-		   try
-		   {
-			   Thread.sleep(3000);
-			   driver.get("https://test:!test123!@www4.slideteam.net");
-			   Thread.sleep(3000);
-		   }
-		   catch (Exception e) {
-			// TODO: handle exception
-		}
 	}
 
 	@Then("^delete the new account created su\\.$")
